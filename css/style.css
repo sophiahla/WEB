@@ -1,0 +1,264 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.body{
+	height: 1000px;
+}
+
+[class*="roof"]{
+	width: 0;
+	height: 0;
+	border-left: 260px solid transparent;
+	border-right: 274px solid transparent;
+	border-bottom: 250px solid #E05D0BFF;
+	z-index: 2;
+}
+
+[class*="floor"]{
+	width: 520px;
+	height: 240px;
+	background: #F4A70AFF;
+	border-width:5px;
+	border-style: solid;
+	border-color: #C97235FF;
+}
+
+[class*="balcony"]{
+	width: 325px;
+    height: 79px;
+    background: #b44f0f;
+    border-width:2px;
+	border-style: solid;
+	border-color: #c45a29;
+	z-index: 3;
+}
+
+[class*="window"]{
+	background: #20ADDEFF;
+	border-width:5px;
+	border-style: solid;
+	border-color: #7F3F3FFF
+}
+
+[class*="window1"]{
+	width: 280px;
+	height:132px;
+}
+
+[class*="window2"]{
+	width: 191px;
+	height:119px;
+	left: 80px;
+}
+
+[class*="door"]{
+	width: 119px;
+	height: 194px;
+	background: #703300FF;
+}
+
+[class*="doorhandle"]{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background: #C45A29FF;
+	border-width:2px;
+	border-style: solid;
+	border-color: #deb093;
+}
+
+[class*="crossV"]{
+	background: #7f3f3f;
+	width: 7px;
+	height:121px;
+}
+
+[class*="crossH"]{
+	background: #7f3f3f;
+	width: 93px;
+    height: 7px;
+}
+
+.house1 *{
+	position: relative;
+}
+
+.roof1{
+	top: 9px;
+	left:85px;
+}
+
+.floor1_1 {
+	top: 7px;
+	z-index: 1;
+	left: 87px;
+}
+
+.floor2_1{
+	top: 2px;
+	left: 87px;
+}
+
+.balcony1{
+	top: 145px;
+	left: 103px;
+}
+
+.window1_1{
+	top: -39px;
+	left: 123px;
+}
+
+.window2_1{
+	top: 47px;
+	left: 80px;
+}
+
+.door1{
+	top: -83px;
+	left: 344px;
+}
+
+.doorhandle1{
+	top: -178px;
+	left: 346px;
+}
+
+.crossV1_1{
+	top: -177px;
+    left: 243px;
+}
+
+.crossV2_1{
+    top: -289px;
+    left: 173px;
+    
+}
+.crossH_1{
+    top: -360px;
+    left: 82px;
+}
+
+
+.house2 *{
+	position: absolute;
+}
+
+.roof2{
+	top:800px;
+	left:85px;
+}
+
+.floor1_2{
+	top: 1048px;
+	left: 87px;
+}
+
+.balcony2{
+	top: 145px;
+	left: 103px;
+}
+
+.window1_2{
+	top: 39px;
+	left: 123px;
+}
+
+.window2_2{
+	top: 47px;
+	left: 80px;
+}
+
+.crossV1_2{
+	top: 40px;
+    left: 243px;
+}
+
+.floor2_2{
+	top: 1295px;
+	left: 87px;
+}
+
+.door2{
+	top: 46px;
+	left: 344px;
+}
+
+.doorhandle2{
+	top: 143px;
+	left: 346px;
+}
+
+.crossV2_2{
+	top: 50px;
+	left: 173px;
+}
+
+.crossH_2{
+	top: 105px;
+	left: 82px;
+}
+
+
+.house3 *{
+	position: fixed;
+}
+
+.roof3{
+	top: 0px;
+    left: 702px;
+}
+
+.floor1_3{
+	top: 248px;
+    left: 704px;
+}
+
+.balcony3{
+	top: 397px;
+    left: 812px;
+
+}
+
+.window1_3{
+	top: 299px;
+    left: 832px;
+}
+
+.window2_3{
+	top: 548px;
+    left: 784px
+}
+
+.crossV1_3{
+	top: 303px;
+    left: 935px;
+}
+
+.floor2_3{
+	top: 492px;
+    left: 704px;
+}
+
+.door3{
+	top: 548px;
+    left: 1047px;
+}
+
+.doorhandle3{
+	top: 143px;
+	left: 720px;
+}
+
+.crossV2_3{
+	top: 549px;
+    left: 873px;
+}
+
+.crossH_3{
+	top: 605px;
+    left: 784px;
+}
